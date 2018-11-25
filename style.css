@@ -1,0 +1,156 @@
+/* portfolio styling section start */
+body {
+    background-color: #FDFDFD;
+}
+.navLinkV2 {
+    margin-top: 3px;
+    float: left;
+    width: 33.25%;
+    overflow: hidden;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-decoration: none;
+    color: orange;
+    background-image: linear-gradient(#FAF9F9, #DBDBDB);
+    border-top: 3px solid #F6F5F5;
+    border-right: 1px solid #D8DAD2;
+    border-bottom: 3px inset #D1D1D1;
+    padding-bottom: 3px;
+}
+.divLinkStyle {
+    background: rgb(228, 228, 228);
+    float: left;
+    width: 70%;
+    text-align: left;
+    text-decoration: none;
+    line-height: 50px;
+    color: grey;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 20px;
+}
+#imgPreview {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#pMargins {
+    margin-left: 104px;
+    margin-top: 25px;
+}
+/* portfolio styling section end */
+
+/* about styling section start */
+.divAbout {
+    float: left;
+    width: 80%;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: grey;
+    border-left: 1px solid rgb(228, 228, 228);
+    border-right: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    text-align: center;
+}
+#h1NameBar {
+    height:50px; 
+    text-align: center;
+    font-size: 38px;
+    padding-top: 12px;
+    color: grey;
+    background-color: rgb(228, 228, 228);
+    font-variant: small-caps; 
+}
+#pMargin {
+    margin-left: 24%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+/* about styling section end */
+
+/* contact styling section start */
+/* contact styling section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* color-info nav+body
+    Original body BG color: #FAF9F9
+    Original color transition: #F1F1F1+#E5E5E5 
+    Current color transition: #FAF9F9+#DBDBDB
+    Current border colors: #F6F5F5 #D8DAD2 #D1D1D1
+    Current body BG color: #FDFDFD
+*/
+
+/*  old nav visual for reference
+.navLink {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+    width: 33%;
+    color: orange;
+    background-color: #F1F1F1;
+    background-image: linear-gradient(#F1F1F1, #E5E5E5);
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;
+    border-right: solid;
+    border-right-width: 1px;
+    border-right-color: rgb(216, 218, 210);    
+    border-top: solid;
+    border-top-width: 3px;
+    border-top-color: #F6F5F5;
+    border-bottom: inset;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(209, 209, 209);
+    
+}
+
+.navLinkDiv {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    color: orange;
+    background-color: #F1F1F1;
+    background-image: linear-gradient(#F1F1F1, #E5E5E5);
+    font-weight: bolder;
+    font-size: 24px;
+    text-decoration: none;    
+    border-top: solid;
+    border-top-width: 3px;
+    border-top-color: #F6F5F5;
+    border-bottom: inset;
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(209, 209, 209);
+
+}
+*/
+
+/* super useful https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */

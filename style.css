@@ -3,22 +3,22 @@ body {
     background-color: #FDFDFD;
 }
 .navLinkV2 {
-    margin-top: 3px;
-    float: left;
-    width: 33.25%;
-    overflow: hidden;
-    font-family: helvetica;
+    float: left;  
+    width: 33.2%;
     text-align: center;
+    font-family: helvetica;    
     font-size: 24px;
     font-weight: bolder;
     font-variant: small-caps;
     text-decoration: none;
     color: orange;
     background-image: linear-gradient(#FAF9F9, #DBDBDB);
+    background-size: cover;
     border-top: 3px solid #F6F5F5;
     border-right: 1px solid #D8DAD2;
-    border-bottom: 3px inset #D1D1D1;
-    padding-bottom: 3px;
+    border-bottom: 4px inset #D1D1D1;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 .divLinkStyle {
     background: rgb(228, 228, 228);
@@ -77,6 +77,50 @@ body {
 /* about styling section end */
 
 /* contact styling section start */
+
+.divContact {
+    float: left;
+    width: 90%; 
+    border: 2px solid grey; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contactNamebar {
+    height:50px;
+    text-align: center;
+    font-size: 38px;
+    padding-top: 12px;
+    color: grey;
+    background-color: rgb(228, 228, 228);
+    font-variant: small-caps; 
+}
+
+.contactNameEmailSubject {
+    text-align: center;
+    float: left;
+    width:33.3%;
+    margin-bottom: 20px;
+}
+
+.contactMessageBox {
+    height: 200px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.contactSubmit {
+    height: 40px;
+    float: bottom;
+    width: 70.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: grey;
+    font-size: 25px;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 3%;
+}
 /* contact styling section end */
 
 
